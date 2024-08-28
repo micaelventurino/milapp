@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milapp - Venta de Milanesas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Milapp</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main>
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Bienvenido a Milapp</h2>
+            <p>Tu lugar para disfrutar de las mejores milanesas.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Nuestro Menú</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Milanesa de Carne</h3>
+                    <p>$8000 el kg</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Milanesa de Pollo</h3>
+                    <p>$8000 el kg</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Milanesa de Cerdo</h3>
+                    <p>$8000 el kg</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Milanesa de Pescado</h3>
+                    <p>$8000 el kg</p>
+                </div>
+                <!-- Puedes añadir más elementos de menú aquí -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¡Contáctanos para hacer tu pedido o realizar consultas!</p>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</main>  
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Milapp. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
